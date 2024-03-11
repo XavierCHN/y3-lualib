@@ -272,7 +272,7 @@ function M.get_icon_id(id)
 end
 
 ---获取任意对象图片
----@param obj ?Unit|Item|Ability|Buff 单位|物品|技能|魔法效果
+---@param obj? Unit|Item|Ability|Buff 单位|物品|技能|魔法效果
 ---@return py.Texture texture
 function M.get_obj_icon(obj)
     -- 如果为空，返回空图片
